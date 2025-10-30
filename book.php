@@ -56,7 +56,8 @@ $cover_path = $stmt->fetch();
     <p>Hind <?= number_format($book['price'], 2,',', ' ')?>€</p>
     <p>Tellitud: <?= $order_count['order_count'] ?? 0 ?> Korda</p>
 
-    <a href="./edit.php?id=<?= $book['id'] ?>">Muuda</a>
+    <a href="./edit.php?id=<?= $book['id'] ?>">Muuda</a><br><br>
+    <a href="./index.php">Tagasi</a>
 
 
 </body>
